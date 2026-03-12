@@ -1,70 +1,161 @@
-# Getting Started with Create React App
+Smart Transformer Health Monitoring System
+Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Smart Transformer Health Monitoring System is an Industrial IoT-based predictive maintenance platform designed to monitor transformer conditions and predict potential failures using Machine Learning.
 
-## Available Scripts
+The system collects transformer parameters such as temperature, voltage, current, rotational speed (RPM), torque, and oil level and analyzes them using a trained Machine Learning model. The model predicts the health score and failure probability of the transformer.
 
-In the project directory, you can run:
+A React-based dashboard displays real-time monitoring graphs and prediction results, while a Flask backend API processes data and interacts with the Machine Learning model.
 
-### `npm start`
+Since real transformer hardware sensors were unavailable during development, a historical transformer dataset was used to simulate real-time sensor data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The system demonstrates how AI, IoT, and Web Technologies can be integrated to build an intelligent predictive maintenance system for power infrastructure.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Objectives
 
-### `npm test`
+The main objectives of this project are:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To design a smart monitoring system for power transformers using IoT concepts.
 
-### `npm run build`
+To collect and analyze transformer operational parameters such as temperature, voltage, current, RPM, torque, and oil level.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To develop a Machine Learning model that predicts transformer health condition and failure probability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To build a real-time monitoring dashboard using React for visualization of sensor data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To implement a Flask API backend for handling sensor data and ML predictions.
 
-### `npm run eject`
+To simulate real-time transformer data using a historical dataset when hardware sensors are unavailable.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To demonstrate the concept of predictive maintenance in industrial systems.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+System Architecture
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The system consists of the following components:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Data Layer
 
-## Learn More
+Transformer operational dataset
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Simulated real-time sensor data
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Machine Learning Layer
 
-### Code Splitting
+Data preprocessing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Model training (Random Forest / XGBoost)
 
-### Analyzing the Bundle Size
+Failure probability prediction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend Layer
 
-### Making a Progressive Web App
+Flask REST API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ML model integration
 
-### Advanced Configuration
+Data processing and prediction service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frontend Layer
 
-### Deployment
+React dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Real-time sensor monitoring
 
-### `npm run build` fails to minify
+Graph visualization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Health score and alert system
+
+Features
+
+Real-time transformer parameter monitoring
+
+Machine learning-based failure prediction
+
+Health score and risk level detection
+
+Interactive monitoring dashboard
+
+Sensor trend graphs
+
+Alert system for abnormal conditions
+
+Technologies Used
+Frontend
+
+React.js
+
+Chart.js / Recharts
+
+CSS / Tailwind
+
+Backend
+
+Flask
+
+Python
+
+Machine Learning
+
+Scikit-learn
+
+Random Forest / XGBoost
+
+Pandas
+
+NumPy
+
+Hardware (Future Integration)
+
+ESP32
+
+IoT Sensors
+
+Dataset
+
+The project uses a transformer predictive maintenance dataset containing operational parameters such as:
+
+Temperature
+
+Voltage
+
+Current
+
+Torque
+
+Rotational Speed
+
+Oil Level
+
+The dataset is used to simulate real-time transformer sensor data for model training and prediction.
+
+System Workflow
+
+Transformer operational data is collected from sensors or dataset.
+
+Data is sent to the Flask backend API.
+
+The backend loads the trained ML model.
+
+The ML model predicts the health condition and failure probability.
+
+Results are sent to the React dashboard.
+
+The dashboard displays monitoring graphs and system alerts.
+
+Future Improvements
+
+Integration with real IoT hardware sensors
+
+Deployment on cloud IoT platforms
+
+Implementation of deep learning models
+
+Real-time alert notifications (SMS/Email)
+
+Edge AI deployment for faster predictions
+
+Author
+
+Laxmipriya Rout
+
+AI / Machine Learning Project
