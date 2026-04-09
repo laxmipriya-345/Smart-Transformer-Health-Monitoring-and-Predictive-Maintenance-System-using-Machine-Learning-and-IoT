@@ -1,161 +1,103 @@
-Smart Transformer Health Monitoring System
-Project Description
 
-The Smart Transformer Health Monitoring System is an Industrial IoT-based predictive maintenance platform designed to monitor transformer conditions and predict potential failures using Machine Learning.
+🚀 Smart Transformer Health Monitoring System
 
-The system collects transformer parameters such as temperature, voltage, current, rotational speed (RPM), torque, and oil level and analyzes them using a trained Machine Learning model. The model predicts the health score and failure probability of the transformer.
+An Industrial IoT-based predictive maintenance platform that monitors transformer conditions and predicts failures using Machine Learning.
 
-A React-based dashboard displays real-time monitoring graphs and prediction results, while a Flask backend API processes data and interacts with the Machine Learning model.
+This system integrates AI, IoT concepts, and Web Technologies to provide real-time monitoring, health analysis, and intelligent alerts for power infrastructure.
 
-Since real transformer hardware sensors were unavailable during development, a historical transformer dataset was used to simulate real-time sensor data.
+📌 Overview
 
-The system demonstrates how AI, IoT, and Web Technologies can be integrated to build an intelligent predictive maintenance system for power infrastructure.
+The Smart Transformer Health Monitoring System analyzes critical transformer parameters such as temperature, voltage, current, RPM, torque, and oil level to:
 
-Objectives
+Predict health score
+Estimate failure probability
+Enable preventive maintenance
 
-The main objectives of this project are:
+A React dashboard visualizes real-time data, while a Flask backend handles ML predictions and data processing.
 
-To design a smart monitoring system for power transformers using IoT concepts.
-
-To collect and analyze transformer operational parameters such as temperature, voltage, current, RPM, torque, and oil level.
-
-To develop a Machine Learning model that predicts transformer health condition and failure probability.
-
-To build a real-time monitoring dashboard using React for visualization of sensor data.
-
-To implement a Flask API backend for handling sensor data and ML predictions.
-
-To simulate real-time transformer data using a historical dataset when hardware sensors are unavailable.
-
-To demonstrate the concept of predictive maintenance in industrial systems.
-
-System Architecture
-
-The system consists of the following components:
-
-Data Layer
-
-Transformer operational dataset
-
+🎯 Objectives
+Design an intelligent transformer monitoring system using IoT concepts
+Analyze operational parameters (temperature, voltage, current, RPM, torque, oil level)
+Develop ML models to predict failure probability
+Build a real-time monitoring dashboard
+Implement backend API for prediction services
+Simulate real-time data using historical datasets
+Demonstrate predictive maintenance in industrial systems
+🏗️ System Architecture
+🔹 Data Layer
+Transformer dataset
 Simulated real-time sensor data
-
-Machine Learning Layer
-
+🔹 Machine Learning Layer
 Data preprocessing
-
 Model training (Random Forest / XGBoost)
-
-Failure probability prediction
-
-Backend Layer
-
+Failure prediction
+🔹 Backend Layer
 Flask REST API
-
 ML model integration
-
-Data processing and prediction service
-
-Frontend Layer
-
+Data processing services
+🔹 Frontend Layer
 React dashboard
-
-Real-time sensor monitoring
-
-Graph visualization
-
-Health score and alert system
-
-Features
-
-Real-time transformer parameter monitoring
-
-Machine learning-based failure prediction
-
-Health score and risk level detection
-
-Interactive monitoring dashboard
-
-Sensor trend graphs
-
-Alert system for abnormal conditions
-
-Technologies Used
-Frontend
-
+Real-time monitoring
+Graph visualization & alerts
+⚙️ Features
+📊 Real-time parameter monitoring
+🤖 Machine learning-based failure prediction
+❤️ Health score & risk level detection
+📈 Interactive dashboard with graphs
+🚨 Alert system for abnormal conditions
+🔄 Simulated real-time sensor data
+🛠️ Tech Stack
+🔹 Frontend
 React.js
-
 Chart.js / Recharts
-
-CSS / Tailwind
-
-Backend
-
+Tailwind CSS
+🔹 Backend
 Flask
-
 Python
-
-Machine Learning
-
+🔹 Machine Learning
 Scikit-learn
-
 Random Forest / XGBoost
-
-Pandas
-
-NumPy
-
-Hardware (Future Integration)
-
+Pandas, NumPy
+🔹 Future Hardware Integration
 ESP32
-
 IoT Sensors
+📂 Dataset
 
-Dataset
-
-The project uses a transformer predictive maintenance dataset containing operational parameters such as:
+The system uses a transformer predictive maintenance dataset containing:
 
 Temperature
-
 Voltage
-
 Current
-
 Torque
-
-Rotational Speed
-
+Rotational Speed (RPM)
 Oil Level
 
-The dataset is used to simulate real-time transformer sensor data for model training and prediction.
+👉 Used to simulate real-time sensor inputs for training and testing.
 
-System Workflow
-
-Transformer operational data is collected from sensors or dataset.
-
-Data is sent to the Flask backend API.
-
-The backend loads the trained ML model.
-
-The ML model predicts the health condition and failure probability.
-
-Results are sent to the React dashboard.
-
-The dashboard displays monitoring graphs and system alerts.
-
-Future Improvements
-
+🔄 System Workflow
+Collect transformer data (sensor/dataset)
+Send data to Flask API
+Backend processes and loads ML model
+Model predicts health & failure probability
+Results sent to frontend
+Dashboard displays graphs and alerts
+📊 Results
+Accurate prediction of transformer health conditions
+Effective detection of high-risk scenarios
+Improved decision-making for preventive maintenance
+🚀 Future Improvements
 Integration with real IoT hardware sensors
-
-Deployment on cloud IoT platforms
-
-Implementation of deep learning models
-
-Real-time alert notifications (SMS/Email)
-
-Edge AI deployment for faster predictions
-
-Author
+Cloud deployment (AWS IoT / Azure IoT)
+Deep Learning-based models
+SMS/Email alert system
+Edge AI deployment for low-latency predictions
+👩‍💻 Author
 
 Laxmipriya Rout
+AI / Machine Learning Enthusiast
 
-AI / Machine Learning Project
+🔗 GitHub: https://github.com/laxmipriya-345
+🔗 LinkedIn: https://linkedin.com/in/laxmipriya-rout-6b9b6a292
+📜 License
+
+This project is licensed under the MIT License.
