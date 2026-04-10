@@ -1,143 +1,184 @@
-SMART TRANSFORMER HEALTH MONITORING SYSTEM
-📌 OVERVIEW
+# 🚀 SMART TRANSFORMER HEALTH MONITORING SYSTEM
 
-The Smart Transformer Health Monitoring System is an Industrial IoT and Machine Learning-based predictive maintenance project designed to monitor transformer health conditions in real-time and predict possible failures before they occur.
+---
 
-This system integrates:
+## 📌 OVERVIEW
 
-Artificial Intelligence (AI)
-Machine Learning (ML)
-Internet of Things (IoT) Concepts
-Full Stack Web Development
+The **Smart Transformer Health Monitoring System** is an **Industrial IoT + Machine Learning-based predictive maintenance project** designed to monitor transformer health conditions in real-time and predict failures before they occur.
 
-It helps in improving power system reliability, safety, and preventive maintenance efficiency.
+It integrates:
 
-🎯 OBJECTIVES
+- Artificial Intelligence (AI)  
+- Machine Learning (ML)  
+- IoT Concepts  
+- Full Stack Web Development  
 
-The main objectives of this project are:
+This system improves **power system reliability, safety, and predictive maintenance efficiency**.
 
-To design an intelligent transformer monitoring system using IoT concepts
-To analyze key transformer parameters in real-time
-To predict transformer failure using Machine Learning models
-To calculate health score and risk level
-To build an interactive web dashboard
-To simulate real-time sensor data using datasets
-To support predictive maintenance in industrial systems
-⚙️ SYSTEM FEATURES
+---
 
-✔ Real-time transformer monitoring
-✔ Machine Learning-based failure prediction
-✔ Health score calculation system
-✔ Risk level classification (Low / Medium / High)
-✔ Interactive dashboard with graphs
-✔ Alert system for abnormal conditions
-✔ Simulated IoT sensor data streaming
-✔ Scalable backend API system
+## 🎯 OBJECTIVES
 
-🏗️ SYSTEM ARCHITECTURE
-🔹 1. Data Layer
-Transformer dataset
-Simulated sensor data
-Real-time input parameters
-🔹 2. Machine Learning Layer
-Data preprocessing
-Feature engineering
-Model training (Random Forest / XGBoost)
-Failure prediction model
-Health score computation
-🔹 3. Backend Layer
-Flask REST API
-Model integration
-Data processing services
-Prediction endpoint
-🔹 4. Frontend Layer
-React.js dashboard
-Real-time data visualization
-Graphs using Chart.js / Recharts
-Alert notifications
-📊 INPUT PARAMETERS
+- Design an intelligent transformer monitoring system using IoT concepts  
+- Analyze transformer operational parameters  
+- Predict transformer failure using Machine Learning models  
+- Calculate health score and risk level  
+- Build an interactive web dashboard  
+- Simulate real-time sensor data  
+- Support predictive maintenance systems  
 
-The system analyzes the following transformer parameters:
+---
 
-Temperature
-Voltage
-Current
-Torque
-Rotational Speed (RPM)
-Oil Level
+## ⚙️ FEATURES
 
-These parameters are continuously monitored and used for prediction.
+- Real-time transformer monitoring  
+- ML-based failure prediction  
+- Health score calculation  
+- Risk level detection (Low / Medium / High)  
+- Interactive dashboard with graphs  
+- Alert system for abnormal conditions  
+- Simulated IoT sensor data  
 
-🤖 MACHINE LEARNING MODEL
-✔ Algorithms Used
-Random Forest Classifier
-XGBoost Classifier
-✔ Process Flow
-Data Cleaning
-Feature Selection
-Model Training
-Model Evaluation
-Prediction Output
-✔ Output
-Transformer Health Status
-Failure Probability (%)
-Risk Level Classification
-🔄 SYSTEM WORKFLOW
-Collect transformer dataset / sensor data
-Send data to Flask backend API
-Preprocess data using ML pipeline
-Load trained ML model
-Predict health status & failure probability
-Send results to React frontend
-Display graphs, alerts, and analytics dashboard
-🛠️ TECHNOLOGY STACK
-🔹 Frontend
-React.js
-Tailwind CSS
-Chart.js / Recharts
-🔹 Backend
-Flask (Python)
-REST API
-🔹 Machine Learning
-Scikit-learn
-Pandas
-NumPy
-XGBoost / Random Forest
-🔹 Future Hardware Integration
-ESP32
-IoT Sensors
-📈 RESULTS
+---
 
-The system successfully achieves:
+## 🏗️ SYSTEM ARCHITECTURE
 
-Accurate prediction of transformer failure conditions
-Early detection of high-risk situations
-Improved maintenance planning
-Real-time monitoring with visualization
-📸 PROJECT SCREENSHOTS
-📊 Dashboard View
+### 🔹 Data Layer
+- Transformer dataset  
+- Simulated sensor data  
+- Real-time inputs  
 
-📉 Real-Time Monitoring
+### 🔹 Machine Learning Layer
+- Data preprocessing  
+- Feature engineering  
+- Model training (Random Forest / XGBoost)  
+- Failure prediction  
 
-⚠️ Failure Prediction Alert
+### 🔹 Backend Layer
+- Flask REST API  
+- ML model integration  
+- Data processing services  
 
-📈 Graph Analysis
+### 🔹 Frontend Layer
+- React dashboard  
+- Graph visualization  
+- Alerts system  
 
-🚀 FUTURE ENHANCEMENTS
-Integration with real IoT hardware (ESP32 / Arduino)
-Deployment on Cloud Platforms (AWS / Azure IoT)
-Implementation of Deep Learning models (LSTM, CNN)
-SMS / Email alert notification system
-Edge AI deployment for faster predictions
-👩‍💻 AUTHOR
+---
 
-Laxmipriya Rout
-🎓 AI / Machine Learning Enthusiast
+## 📊 INPUT PARAMETERS
 
-🔗 GitHub: https://github.com/laxmipriya-345
+- Temperature  
+- Voltage  
+- Current  
+- Torque  
+- Rotational Speed (RPM)  
+- Oil Level  
 
-🔗 LinkedIn: https://linkedin.com/in/laxmipriya-rout-6b9b6a292
+---
 
-📜 LICENSE
+## 🤖 MACHINE LEARNING MODEL
+
+### Algorithms Used:
+- Random Forest  
+- XGBoost  
+
+### Output:
+- Health Status  
+- Failure Probability  
+- Risk Level  
+
+---
+
+## 🔄 SYSTEM WORKFLOW
+
+1. Collect transformer data  
+2. Send data to Flask API  
+3. Backend processes data  
+4. ML model predicts output  
+5. Results sent to frontend  
+6. Dashboard displays visualization  
+
+---
+
+## 🛠️ TECH STACK
+
+### Frontend:
+- React.js  
+- Tailwind CSS  
+- Chart.js / Recharts  
+
+### Backend:
+- Flask  
+- Python  
+
+### ML:
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- XGBoost  
+
+### Future Hardware:
+- ESP32  
+- IoT Sensors  
+
+---
+
+## 📸 SCREENSHOTS
+
+### Dashboard
+![Dashboard](dashboard.png)
+![Dashboard](dashboard2.png)
+### Monitoring
+![Serial](serial.png)
+![Serial](serial2.png)
+### Alerts
+![Alert](alert.png)
+
+### Graphs
+![Graphs](graphs.png)
+
+![prediction](prediction.png)
+---
+
+## 📈 RESULTS
+
+- Accurate transformer failure prediction  
+- Early risk detection  
+- Improved maintenance planning  
+- Real-time monitoring dashboard  
+
+---
+
+## 🚀 FUTURE WORK
+
+- IoT hardware integration (ESP32)  
+- Cloud deployment (AWS / Azure IoT)  
+- Deep Learning models  
+- SMS / Email alerts  
+- Edge AI deployment  
+
+---
+
+## 👩‍💻 AUTHOR
+
+**Laxmipriya Rout**  
+AI / ML Enthusiast  
+
+GitHub: https://github.com/laxmipriya-345  
+LinkedIn: https://linkedin.com/in/laxmipriya-rout-6b9b6a292  
+
+---
+
+## 📜 LICENSE
 
 This project is licensed under the MIT License.
+
+---
+
+## ⭐ SUPPORT
+
+If you like this project:
+⭐ Star the repository  
+🔁 Share it  
+💡 Contribute improvements  
