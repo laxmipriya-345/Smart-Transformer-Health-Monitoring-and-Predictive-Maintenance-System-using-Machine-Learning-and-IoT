@@ -129,12 +129,12 @@ This system improves **power system reliability, safety, and predictive maintena
 ### Dashboard
 ![Dashboard](dashboard.png)
 
-![Dashboard](dashboard2.png)
+![Dashboard 2](dashboard 2.png)
 ### Monitoring
 
 ![Serial](serial.png)
 
-![Serial2](serial2.png)
+![Serial2](serial 2.png)
 ### Alerts
 ![Alert](alert.png)
 
@@ -143,7 +143,7 @@ This system improves **power system reliability, safety, and predictive maintena
 
 ![system](system arch.png)
 
-![system information](graphs.png)
+![system information](system information.png)
 
 ---
 
